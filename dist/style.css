@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Overpass&family=Pacifico&family=Poppins:wght@500&display=swap');
+
+*{margin:3px 2px 0 0;}
+a {text-decoration: none;}
+ul {list-style-type:none;}
+img {border-radius: 5px 5px 0 0;}
+
+.centered-text{display:flex;justify-content:center;background-color:;}
+
+#navbar {
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  height: 60px;
+  width: 100%;   
+  background: rgb(238,174,202);
+  background: linear-gradient(225deg, rgba(238,174,202,1) 30%, rgba(0,0,0,0) 30%);
+}
+
+#nav-display{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-right: 20px;
+  margin-top:13px;
+}
+
+.nav-button {background-image: linear-gradient(to right, #94bbe9 0%, #94bbe9 20%, #eeaeca 100%)}
+
+.nav-button {
+  font-family:Poppins;
+  margin: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 1.5s;
+  background-size: 300% auto;
+  color: black;            
+  border-radius: 10px;
+}
+
+.nav-button:hover {
+  background-position: right center; 
+  color: #000;
+  text-decoration: none;
+}
+
+#main-content {
+  display:grid;
+  grid-template-rows:1fr 500px 50px;
+}
+
+body {
+  background: rgb(238,174,202);padding:0px;font-family:Poppins;
+}
+
+#welcome-section {
+  margin-top: 0px;
+  padding:0px;
+  height:100vh;
+  width:100%;
+  background:#5b91d0;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family:Poppins;
+}
+
+#title{font-size:40px;padding-bottom:0px;}
+#presentation{font-size:25px; text-align:center;padding-top:50px;}
+#funny{font-size:;margin-top:-15px;padding-bottom:40px;padding-top:15px;}
+
+#projects{padding-top:15px;}
+#projects-title{padding-bottom:25px;}
+
+#projects-container {
+  margin-left: 0px;
+  padding:0px;
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-around;
+}
+
+.project-img{height:300px;}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding:0px;
+  margin:0px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.text-container {
+  padding: 0px 40px 10px 40px;
+  width: 300px;
+  display:flex;
+  flex-direction:column;
+}
+
+#contact-section {
+  margin-top: 0px;
+  padding:0px;
+  height:60px;
+  width:100%;
+  background-image: linear-gradient(120deg, #e0c3fc 100%, #8ec5fc 0%);
+}
+
+@media {ver como pingo hacer que sea responsable}
